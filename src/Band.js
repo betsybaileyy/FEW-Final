@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import data from './metal.json';
 import BandDetail from './BandDetail';
-import Like from './Like';
 
 class Band extends Component {
     render () {
@@ -13,7 +12,6 @@ class Band extends Component {
           }   )
           
           }
-        <Like />
       </div>
     )
   }

@@ -5,7 +5,7 @@ function Bandcount() {
     const bandcount = data.length;
     return (
       <div>
-          <p>Band count: {bandcount}</p>
+          <p>Total Number of Bands: {bandcount}</p>
       </div>
     )
   }

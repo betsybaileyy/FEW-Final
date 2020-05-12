@@ -4,14 +4,12 @@ import './App.css';
 import Heading from './Heading';
 import Bandcount from './Bandcount';
 import Band from './Band';
-import Like from './Like';
 
 function App() {
   return (
     <div className="App">
       <Heading />
       <Bandcount />
-      <Like />
       <Band />
     </div>
   );
